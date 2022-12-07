@@ -16,6 +16,7 @@ namespace EcsDotsDeneme
         {
         }
 
+        [BurstCompile]
         public void OnUpdate(ref SystemState state)
         {
             var entityCommandBuffer = new EntityCommandBuffer(Allocator.Temp);

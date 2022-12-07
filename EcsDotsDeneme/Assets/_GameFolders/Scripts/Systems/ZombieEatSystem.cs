@@ -17,6 +17,7 @@ namespace EcsDotsDeneme
         {
         }
 
+        [BurstCompile]
         public void OnUpdate(ref SystemState state)
         {
             var deltaTime = SystemAPI.Time.DeltaTime;
